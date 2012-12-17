@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:optionalBlock name="concurrentRunBlocked" title="${%Block scheduling this job when same one is already being executed}" checked="${instance!=null}">
+    </f:optionalBlock>
+</j:jelly>
